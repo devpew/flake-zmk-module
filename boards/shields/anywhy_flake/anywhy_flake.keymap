@@ -117,7 +117,7 @@
 
         num {
             bindings = <
-&kp ESC    &kp N1  &kp N2    &kp N3    &kp N4     &kp N5            &kp N6  &kp N7     &kp N8     &kp N9    &kp N0     &kp MINUS
+&none  &kp ESC   &kp BACKSPACE  &kp TAB    &kp ENTER  &kp DEL          &kp GRAVE  &kp N7  &kp N8  &kp N9  &kp MINUS  &none
 &none  &kp LGUI  &kp LALT       &kp LCTRL  &kp LSHFT  &kp LBKT         &kp EQUAL  &kp N4  &kp N5  &kp N6  &kp N0     &none
 &none  &kp LEFT  &kp DOWN       &kp UP     &kp RIGHT  &kp RBKT         &kp SQT    &kp N1  &kp N2  &kp N3  &kp BSLH   &none
                  &trans         &trans     &trans     &trans    &none  &none      &trans  &trans  &trans  &trans
@@ -132,5 +132,11 @@
                 &trans  &trans  &trans  &trans          &none  &none  &trans      &trans        &trans        &trans
             >;
         };
+
+        extra1 { status = "reserved"; };
+        extra2 { status = "reserved"; };
+        extra3 { status = "reserved"; };
+        extra4 { status = "reserved"; };
+        extra5 { status = "reserved"; };
     };
 };

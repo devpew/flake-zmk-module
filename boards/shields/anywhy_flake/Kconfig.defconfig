@@ -1,7 +1,7 @@
 if SHIELD_ANYWHY_FLAKE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "AFlake"
+    default "Anywhy Flake"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
